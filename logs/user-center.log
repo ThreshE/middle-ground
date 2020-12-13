@@ -1,0 +1,274 @@
+2020-09-15 10:34:29.364  INFO [user-center,,,] 1985 --- [main] com.cloud.user.UserCenterApplication     : The following profiles are active: dev
+2020-09-15 10:34:30.232  WARN [user-center,,,] 1985 --- [main] o.s.boot.actuate.endpoint.EndpointId     : Endpoint ID 'nacos-config' contains invalid characters, please migrate to a valid format.
+2020-09-15 10:34:30.234  WARN [user-center,,,] 1985 --- [main] o.s.boot.actuate.endpoint.EndpointId     : Endpoint ID 'nacos-discovery' contains invalid characters, please migrate to a valid format.
+2020-09-15 10:34:30.529  INFO [user-center,,,] 1985 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-09-15 10:34:30.533  INFO [user-center,,,] 1985 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-09-15 10:34:30.562  INFO [user-center,,,] 1985 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 9ms. Found 0 repository interfaces.
+2020-09-15 10:34:30.628  WARN [user-center,,,] 1985 --- [main] o.s.boot.actuate.endpoint.EndpointId     : Endpoint ID 'service-registry' contains invalid characters, please migrate to a valid format.
+2020-09-15 10:34:30.934  INFO [user-center,,,] 1985 --- [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=b3c5b3de-f116-3d07-a1a5-b4689bea5936
+2020-09-15 10:34:31.290  INFO [user-center,,,] 1985 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$91b3c040] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-09-15 10:34:31.326  INFO [user-center,,,] 1985 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration' of type [org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration$$EnhancerBySpringCGLIB$$2a61887a] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-09-15 10:34:31.333  INFO [user-center,,,] 1985 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'objectPostProcessor' of type [org.springframework.security.config.annotation.configuration.AutowireBeanFactoryObjectPostProcessor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-09-15 10:34:31.339  INFO [user-center,,,] 1985 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@35ac9ebd' of type [org.springframework.security.oauth2.provider.expression.OAuth2MethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-09-15 10:34:31.344  INFO [user-center,,,] 1985 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration' of type [org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration$$EnhancerBySpringCGLIB$$4f362b2c] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-09-15 10:34:31.354  INFO [user-center,,,] 1985 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-09-15 10:34:31.373  INFO [user-center,,,] 1985 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$adcdc33d] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-09-15 10:34:31.379  INFO [user-center,,,] 1985 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.sleuth.instrument.web.client.TraceWebClientAutoConfiguration$TraceOAuthConfiguration' of type [org.springframework.cloud.sleuth.instrument.web.client.TraceWebClientAutoConfiguration$TraceOAuthConfiguration$$EnhancerBySpringCGLIB$$d6b0529f] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-09-15 10:34:31.750  INFO [user-center,,,] 1985 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 0 (http)
+2020-09-15 10:34:31.770  INFO [user-center,,,] 1985 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-09-15 10:34:31.770  INFO [user-center,,,] 1985 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.26]
+2020-09-15 10:34:31.865  INFO [user-center,,,] 1985 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-09-15 10:34:31.865  INFO [user-center,,,] 1985 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2490 ms
+2020-09-15 10:34:33.553  INFO [user-center,,,] 1985 --- [main] com.alibaba.nacos.client.naming          : initializer namespace from System Property :null
+2020-09-15 10:34:33.554  INFO [user-center,,,] 1985 --- [main] com.alibaba.nacos.client.naming          : initializer namespace from System Environment :null
+2020-09-15 10:34:33.554  INFO [user-center,,,] 1985 --- [main] com.alibaba.nacos.client.naming          : initializer namespace from System Property :null
+2020-09-15 10:34:33.960  INFO [user-center,,,] 1985 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2020-09-15 10:35:49.084 ERROR [user-center,,,] 1985 --- [Druid-ConnectionPool-Create-1177018330] com.alibaba.druid.pool.DruidDataSource   : create connection error, url: jdbc:mysql://130.120.3.140:3306/cloud_user?useSSL=FALSE&serverTimezone=GMT%2B8, errorCode 0, state 08S01
+
+com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at com.mysql.cj.jdbc.exceptions.SQLError.createCommunicationsException(SQLError.java:172) ~[mysql-connector-java-8.0.11.jar:8.0.11]
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:64) ~[mysql-connector-java-8.0.11.jar:8.0.11]
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:862) ~[mysql-connector-java-8.0.11.jar:8.0.11]
+	at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:444) ~[mysql-connector-java-8.0.11.jar:8.0.11]
+	at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:230) ~[mysql-connector-java-8.0.11.jar:8.0.11]
+	at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:226) ~[mysql-connector-java-8.0.11.jar:8.0.11]
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1461) ~[druid-1.0.29.jar:1.0.29]
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1525) ~[druid-1.0.29.jar:1.0.29]
+	at com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:2100) ~[druid-1.0.29.jar:1.0.29]
+Caused by: com.mysql.cj.exceptions.CJCommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[na:1.8.0_172]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62) ~[na:1.8.0_172]
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[na:1.8.0_172]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423) ~[na:1.8.0_172]
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:59) ~[mysql-connector-java-8.0.11.jar:8.0.11]
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:103) ~[mysql-connector-java-8.0.11.jar:8.0.11]
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:149) ~[mysql-connector-java-8.0.11.jar:8.0.11]
+	at com.mysql.cj.exceptions.ExceptionFactory.createCommunicationsException(ExceptionFactory.java:165) ~[mysql-connector-java-8.0.11.jar:8.0.11]
+	at com.mysql.cj.protocol.a.NativeSocketConnection.connect(NativeSocketConnection.java:92) ~[mysql-connector-java-8.0.11.jar:8.0.11]
+	at com.mysql.cj.NativeSession.connect(NativeSession.java:152) ~[mysql-connector-java-8.0.11.jar:8.0.11]
+	at com.mysql.cj.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:982) ~[mysql-connector-java-8.0.11.jar:8.0.11]
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:852) ~[mysql-connector-java-8.0.11.jar:8.0.11]
+	... 6 common frames omitted
+Caused by: java.net.ConnectException: Operation timed out (Connection timed out)
+	at java.net.PlainSocketImpl.socketConnect(Native Method) ~[na:1.8.0_172]
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350) ~[na:1.8.0_172]
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206) ~[na:1.8.0_172]
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188) ~[na:1.8.0_172]
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392) ~[na:1.8.0_172]
+	at java.net.Socket.connect(Socket.java:589) ~[na:1.8.0_172]
+	at com.mysql.cj.protocol.StandardSocketFactory.connect(StandardSocketFactory.java:173) ~[mysql-connector-java-8.0.11.jar:8.0.11]
+	at com.mysql.cj.protocol.a.NativeSocketConnection.connect(NativeSocketConnection.java:66) ~[mysql-connector-java-8.0.11.jar:8.0.11]
+	... 9 common frames omitted
+
+2020-09-15 11:08:19.936  INFO [user-center,,,] 2047 --- [main] com.cloud.user.UserCenterApplication     : The following profiles are active: dev
+2020-09-15 11:08:20.896  WARN [user-center,,,] 2047 --- [main] o.s.boot.actuate.endpoint.EndpointId     : Endpoint ID 'nacos-config' contains invalid characters, please migrate to a valid format.
+2020-09-15 11:08:20.898  WARN [user-center,,,] 2047 --- [main] o.s.boot.actuate.endpoint.EndpointId     : Endpoint ID 'nacos-discovery' contains invalid characters, please migrate to a valid format.
+2020-09-15 11:08:21.234  INFO [user-center,,,] 2047 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-09-15 11:08:21.236  INFO [user-center,,,] 2047 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-09-15 11:08:21.262  INFO [user-center,,,] 2047 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 8ms. Found 0 repository interfaces.
+2020-09-15 11:08:21.330  WARN [user-center,,,] 2047 --- [main] o.s.boot.actuate.endpoint.EndpointId     : Endpoint ID 'service-registry' contains invalid characters, please migrate to a valid format.
+2020-09-15 11:08:21.647  INFO [user-center,,,] 2047 --- [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=b3c5b3de-f116-3d07-a1a5-b4689bea5936
+2020-09-15 11:08:22.003  INFO [user-center,,,] 2047 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$1cbfa7f2] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-09-15 11:08:22.047  INFO [user-center,,,] 2047 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration' of type [org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration$$EnhancerBySpringCGLIB$$b56d702c] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-09-15 11:08:22.055  INFO [user-center,,,] 2047 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'objectPostProcessor' of type [org.springframework.security.config.annotation.configuration.AutowireBeanFactoryObjectPostProcessor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-09-15 11:08:22.064  INFO [user-center,,,] 2047 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@5e67a490' of type [org.springframework.security.oauth2.provider.expression.OAuth2MethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-09-15 11:08:22.066  INFO [user-center,,,] 2047 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration' of type [org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration$$EnhancerBySpringCGLIB$$da4212de] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-09-15 11:08:22.080  INFO [user-center,,,] 2047 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-09-15 11:08:22.117  INFO [user-center,,,] 2047 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$38d9aaef] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-09-15 11:08:22.128  INFO [user-center,,,] 2047 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.sleuth.instrument.web.client.TraceWebClientAutoConfiguration$TraceOAuthConfiguration' of type [org.springframework.cloud.sleuth.instrument.web.client.TraceWebClientAutoConfiguration$TraceOAuthConfiguration$$EnhancerBySpringCGLIB$$61bc3a51] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-09-15 11:08:22.681  INFO [user-center,,,] 2047 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 0 (http)
+2020-09-15 11:08:22.701  INFO [user-center,,,] 2047 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-09-15 11:08:22.701  INFO [user-center,,,] 2047 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.26]
+2020-09-15 11:08:22.801  INFO [user-center,,,] 2047 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-09-15 11:08:22.802  INFO [user-center,,,] 2047 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2848 ms
+2020-09-15 11:08:24.501  INFO [user-center,,,] 2047 --- [main] com.alibaba.nacos.client.naming          : initializer namespace from System Property :null
+2020-09-15 11:08:24.502  INFO [user-center,,,] 2047 --- [main] com.alibaba.nacos.client.naming          : initializer namespace from System Environment :null
+2020-09-15 11:08:24.502  INFO [user-center,,,] 2047 --- [main] com.alibaba.nacos.client.naming          : initializer namespace from System Property :null
+2020-09-15 11:08:25.033  INFO [user-center,,,] 2047 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2020-09-15 11:08:26.197  INFO [user-center,,,] 2047 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'taskExecutor'
+2020-09-15 11:08:26.826  INFO [user-center,,,] 2047 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 23 endpoint(s) beneath base path '/actuator'
+2020-09-15 11:08:27.160  INFO [user-center,,,] 2047 --- [main] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: 68587666-2dba-43fc-8398-a3e228c1437a
+
+2020-09-15 11:08:27.550  INFO [user-center,,,] 2047 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@7ba623d1, org.springframework.security.web.context.SecurityContextPersistenceFilter@4af50246, org.springframework.security.web.header.HeaderWriterFilter@4dd425dc, org.springframework.security.web.authentication.logout.LogoutFilter@3b3a3a92, org.springframework.security.oauth2.provider.authentication.OAuth2AuthenticationProcessingFilter@2e015ac1, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@5542418c, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@56ed2baf, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@6c930e7e, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@2d5435d4, org.springframework.security.web.session.SessionManagementFilter@d60cbad, org.springframework.security.web.access.ExceptionTranslationFilter@35630ee8, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@6fd37997]
+2020-09-15 11:08:27.702  INFO [user-center,,,] 2047 --- [main] io.lettuce.core.EpollProvider            : Starting without optional epoll library
+2020-09-15 11:08:27.706  INFO [user-center,,,] 2047 --- [main] io.lettuce.core.KqueueProvider           : Starting without optional kqueue library
+2020-09-15 11:08:32.956  INFO [user-center,,,] 2047 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2020-09-15 11:08:33.000  WARN [user-center,,,] 2047 --- [main] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2020-09-15 11:08:33.000  INFO [user-center,,,] 2047 --- [main] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-09-15 11:08:33.005  WARN [user-center,,,] 2047 --- [main] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2020-09-15 11:08:33.005  INFO [user-center,,,] 2047 --- [main] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-09-15 11:08:33.555  INFO [user-center,,,] 2047 --- [main] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService
+2020-09-15 11:08:34.459  INFO [user-center,,,] 2047 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2020-09-15 11:08:34.483  INFO [user-center,,,] 2047 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2020-09-15 11:08:34.566  INFO [user-center,,,] 2047 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2020-09-15 11:08:34.826  INFO [user-center,,,] 2047 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: handleUsingGET_1
+2020-09-15 11:08:34.829  INFO [user-center,,,] 2047 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: handleUsingGET_2
+2020-09-15 11:08:34.831  INFO [user-center,,,] 2047 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: handleUsingGET_3
+2020-09-15 11:08:34.834  INFO [user-center,,,] 2047 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: handleUsingGET_4
+2020-09-15 11:08:34.839  INFO [user-center,,,] 2047 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: handleUsingDELETE_1
+2020-09-15 11:08:34.840  INFO [user-center,,,] 2047 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: handleUsingGET_5
+2020-09-15 11:08:34.841  INFO [user-center,,,] 2047 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: handleUsingGET_6
+2020-09-15 11:08:34.843  INFO [user-center,,,] 2047 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: handleUsingGET_7
+2020-09-15 11:08:34.844  INFO [user-center,,,] 2047 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: handleUsingGET_8
+2020-09-15 11:08:34.846  INFO [user-center,,,] 2047 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: handleUsingDELETE_2
+2020-09-15 11:08:34.847  INFO [user-center,,,] 2047 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: handleUsingGET_9
+2020-09-15 11:08:34.849  INFO [user-center,,,] 2047 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: handleUsingGET_10
+2020-09-15 11:08:34.850  INFO [user-center,,,] 2047 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: handleUsingGET_11
+2020-09-15 11:08:34.851  INFO [user-center,,,] 2047 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: handleUsingGET_12
+2020-09-15 11:08:34.852  INFO [user-center,,,] 2047 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: handleUsingGET_13
+2020-09-15 11:08:34.853  INFO [user-center,,,] 2047 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: handleUsingGET_14
+2020-09-15 11:08:34.854  INFO [user-center,,,] 2047 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: handleUsingGET_15
+2020-09-15 11:08:34.855  INFO [user-center,,,] 2047 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: handleUsingGET_16
+2020-09-15 11:08:34.857  INFO [user-center,,,] 2047 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: handleUsingGET_17
+2020-09-15 11:08:34.857  INFO [user-center,,,] 2047 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: handleUsingPOST_1
+2020-09-15 11:08:34.859  INFO [user-center,,,] 2047 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: handleUsingGET_18
+2020-09-15 11:08:34.860  INFO [user-center,,,] 2047 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: handleUsingGET_19
+2020-09-15 11:08:34.861  INFO [user-center,,,] 2047 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: handleUsingGET_20
+2020-09-15 11:08:34.862  INFO [user-center,,,] 2047 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: handleUsingGET_21
+2020-09-15 11:08:34.863  INFO [user-center,,,] 2047 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: handleUsingGET_22
+2020-09-15 11:08:34.864  INFO [user-center,,,] 2047 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: handleUsingGET_23
+2020-09-15 11:08:34.865  INFO [user-center,,,] 2047 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: handleUsingPOST_2
+2020-09-15 11:08:34.866  INFO [user-center,,,] 2047 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: handleUsingGET_24
+2020-09-15 11:08:34.866  INFO [user-center,,,] 2047 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: handleUsingGET_25
+2020-09-15 11:08:34.867  INFO [user-center,,,] 2047 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: handleUsingPOST_3
+2020-09-15 11:08:34.868  INFO [user-center,,,] 2047 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: handleUsingGET_26
+2020-09-15 11:08:34.869  INFO [user-center,,,] 2047 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: handleUsingDELETE_3
+2020-09-15 11:08:34.870  INFO [user-center,,,] 2047 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: handleUsingGET_27
+2020-09-15 11:08:34.871  INFO [user-center,,,] 2047 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: handleUsingGET_28
+2020-09-15 11:08:34.889  INFO [user-center,,,] 2047 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: saveUsingPOST_1
+2020-09-15 11:08:34.891  INFO [user-center,,,] 2047 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: updateUsingPUT_1
+2020-09-15 11:08:35.559  INFO [user-center,,,] 2047 --- [main] s.a.ScheduledAnnotationBeanPostProcessor : No TaskScheduler/ScheduledExecutorService bean found for scheduled processing
+2020-09-15 11:08:35.581  INFO [user-center,,,] 2047 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-09-15 11:08:35.581  INFO [user-center,,,] 2047 --- [main] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-09-15 11:08:35.596  INFO [user-center,,,] 2047 --- [main] o.s.web.servlet.DispatcherServlet        : Completed initialization in 15 ms
+2020-09-15 11:08:35.596  INFO [user-center,,,] 2047 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 55793 (http) with context path ''
+2020-09-15 11:08:35.598  INFO [user-center,,,] 2047 --- [main] com.alibaba.nacos.client.naming          : [BEAT] adding beat: {"cluster":"DEFAULT","ip":"192.168.31.79","metadata":{"preserved.register.source":"SPRING_CLOUD"},"period":5000,"port":55793,"scheduled":false,"serviceName":"DEFAULT_GROUP@@user-center","stopped":false,"weight":1.0} to beat map.
+2020-09-15 11:08:35.732  INFO [user-center,,,] 2047 --- [main] com.alibaba.nacos.client.naming          : [REGISTER-SERVICE] public registering service DEFAULT_GROUP@@user-center with instance: {"clusterName":"DEFAULT","enabled":true,"ephemeral":true,"healthy":true,"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000,"ip":"192.168.31.79","ipDeleteTimeout":30000,"metadata":{"preserved.register.source":"SPRING_CLOUD"},"port":55793,"weight":1.0}
+2020-09-15 11:08:35.898  INFO [user-center,,,] 2047 --- [main] c.a.c.n.registry.NacosServiceRegistry    : nacos registry, DEFAULT_GROUP user-center 192.168.31.79:55793 register finished
+2020-09-15 11:08:35.903  INFO [user-center,,,] 2047 --- [main] com.cloud.user.UserCenterApplication     : Started UserCenterApplication in 26.8 seconds (JVM running for 37.525)
+2020-09-15 11:08:35.920  INFO [user-center,,,] 2047 --- [main] c.a.n.client.config.impl.ClientWorker    : [fixed-127.0.0.1_8848] [subscribe] user-center+DEFAULT_GROUP
+2020-09-15 11:08:35.920  INFO [user-center,,,] 2047 --- [main] c.a.nacos.client.config.impl.CacheData   : [fixed-127.0.0.1_8848] [add-listener] ok, tenant=, dataId=user-center, group=DEFAULT_GROUP, cnt=1
+2020-09-15 11:08:35.920  INFO [user-center,,,] 2047 --- [main] c.a.n.client.config.impl.ClientWorker    : [fixed-127.0.0.1_8848] [subscribe] user-center.yaml+DEFAULT_GROUP
+2020-09-15 11:08:35.920  INFO [user-center,,,] 2047 --- [main] c.a.nacos.client.config.impl.CacheData   : [fixed-127.0.0.1_8848] [add-listener] ok, tenant=, dataId=user-center.yaml, group=DEFAULT_GROUP, cnt=1
+2020-09-15 11:08:35.921  INFO [user-center,,,] 2047 --- [main] c.a.n.client.config.impl.ClientWorker    : [fixed-127.0.0.1_8848] [subscribe] user-center-dev.yaml+DEFAULT_GROUP
+2020-09-15 11:08:35.921  INFO [user-center,,,] 2047 --- [main] c.a.nacos.client.config.impl.CacheData   : [fixed-127.0.0.1_8848] [add-listener] ok, tenant=, dataId=user-center-dev.yaml, group=DEFAULT_GROUP, cnt=1
+2020-09-15 11:46:07.863  INFO [user-center,,,] 2047 --- [Thread-16] c.a.c.n.registry.NacosServiceRegistry    : De-registering from Nacos Server now...
+2020-09-15 11:46:07.865  INFO [user-center,,,] 2047 --- [Thread-16] com.alibaba.nacos.client.naming          : [BEAT] removing beat: DEFAULT_GROUP@@user-center:192.168.31.79:55793 from beat map.
+2020-09-15 11:46:07.865  INFO [user-center,,,] 2047 --- [Thread-16] com.alibaba.nacos.client.naming          : [DEREGISTER-SERVICE] public deregistering service DEFAULT_GROUP@@user-center with instance: {"clusterName":"DEFAULT","enabled":true,"ephemeral":true,"healthy":true,"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000,"instanceIdGenerator":"simple","ip":"192.168.31.79","ipDeleteTimeout":30000,"metadata":{},"port":55793,"weight":1.0}
+2020-09-15 11:46:07.870  INFO [user-center,,,] 2047 --- [Thread-16] c.a.c.n.registry.NacosServiceRegistry    : De-registration finished.
+2020-09-15 11:46:07.875  INFO [user-center,,,] 2047 --- [Thread-16] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'taskExecutor'
+2020-09-15 11:46:07.882  INFO [user-center,,,] 2047 --- [Thread-16] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed
+2020-09-15 11:46:08.123  WARN [user-center,,,] 2047 --- [AsyncReporter{org.springframework.cloud.sleuth.zipkin2.sender.RestTemplateSender@246df37b}] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2020-09-15 11:46:08.123  INFO [user-center,,,] 2047 --- [AsyncReporter{org.springframework.cloud.sleuth.zipkin2.sender.RestTemplateSender@246df37b}] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-09-15 11:46:08.123  INFO [user-center,,,] 2047 --- [AsyncReporter{org.springframework.cloud.sleuth.zipkin2.sender.RestTemplateSender@246df37b}] c.netflix.config.DynamicPropertyFactory  : DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@589cc8cd
+2020-09-15 11:46:08.142  WARN [user-center,,,] 2047 --- [AsyncReporter{org.springframework.cloud.sleuth.zipkin2.sender.RestTemplateSender@246df37b}] s.c.a.AnnotationConfigApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'ribbonServerList' defined in com.alibaba.cloud.nacos.ribbon.NacosRibbonClientConfiguration: Unsatisfied dependency expressed through method 'ribbonServerList' parameter 1; nested exception is org.springframework.beans.factory.BeanCreationNotAllowedException: Error creating bean with name 'nacosProperties': Singleton bean creation not allowed while singletons of this factory are in destruction (Do not request a bean from a BeanFactory in a destroy method implementation!)
+2020-09-15 11:50:56.255  INFO [user-center,,,] 2353 --- [main] com.cloud.user.UserCenterApplication     : The following profiles are active: dev
+2020-09-15 11:50:56.919  WARN [user-center,,,] 2353 --- [main] o.s.boot.actuate.endpoint.EndpointId     : Endpoint ID 'nacos-config' contains invalid characters, please migrate to a valid format.
+2020-09-15 11:50:56.920  WARN [user-center,,,] 2353 --- [main] o.s.boot.actuate.endpoint.EndpointId     : Endpoint ID 'nacos-discovery' contains invalid characters, please migrate to a valid format.
+2020-09-15 11:50:57.076  INFO [user-center,,,] 2353 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-09-15 11:50:57.078  INFO [user-center,,,] 2353 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-09-15 11:50:57.090  INFO [user-center,,,] 2353 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 5ms. Found 0 repository interfaces.
+2020-09-15 11:50:57.156  WARN [user-center,,,] 2353 --- [main] o.s.boot.actuate.endpoint.EndpointId     : Endpoint ID 'service-registry' contains invalid characters, please migrate to a valid format.
+2020-09-15 11:50:57.422  INFO [user-center,,,] 2353 --- [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=b3c5b3de-f116-3d07-a1a5-b4689bea5936
+2020-09-15 11:50:57.697  INFO [user-center,,,] 2353 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$526439b8] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-09-15 11:50:57.730  INFO [user-center,,,] 2353 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration' of type [org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration$$EnhancerBySpringCGLIB$$eb1201f2] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-09-15 11:50:57.736  INFO [user-center,,,] 2353 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'objectPostProcessor' of type [org.springframework.security.config.annotation.configuration.AutowireBeanFactoryObjectPostProcessor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-09-15 11:50:57.741  INFO [user-center,,,] 2353 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@2f4d01b6' of type [org.springframework.security.oauth2.provider.expression.OAuth2MethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-09-15 11:50:57.746  INFO [user-center,,,] 2353 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration' of type [org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration$$EnhancerBySpringCGLIB$$fe6a4a4] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-09-15 11:50:57.754  INFO [user-center,,,] 2353 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-09-15 11:50:57.771  INFO [user-center,,,] 2353 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$6e7e3cb5] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-09-15 11:50:57.777  INFO [user-center,,,] 2353 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.sleuth.instrument.web.client.TraceWebClientAutoConfiguration$TraceOAuthConfiguration' of type [org.springframework.cloud.sleuth.instrument.web.client.TraceWebClientAutoConfiguration$TraceOAuthConfiguration$$EnhancerBySpringCGLIB$$9760cc17] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-09-15 11:50:58.084  INFO [user-center,,,] 2353 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 0 (http)
+2020-09-15 11:50:58.099  INFO [user-center,,,] 2353 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-09-15 11:50:58.100  INFO [user-center,,,] 2353 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.26]
+2020-09-15 11:50:58.175  INFO [user-center,,,] 2353 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-09-15 11:50:58.175  INFO [user-center,,,] 2353 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1910 ms
+2020-09-15 11:50:59.696  INFO [user-center,,,] 2353 --- [main] com.alibaba.nacos.client.naming          : initializer namespace from System Property :null
+2020-09-15 11:50:59.696  INFO [user-center,,,] 2353 --- [main] com.alibaba.nacos.client.naming          : initializer namespace from System Environment :null
+2020-09-15 11:50:59.696  INFO [user-center,,,] 2353 --- [main] com.alibaba.nacos.client.naming          : initializer namespace from System Property :null
+2020-09-15 11:51:00.022  INFO [user-center,,,] 2353 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2020-09-15 11:51:00.686  INFO [user-center,,,] 2353 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'taskExecutor'
+2020-09-15 11:51:01.071  INFO [user-center,,,] 2353 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 23 endpoint(s) beneath base path '/actuator'
+2020-09-15 11:51:01.356  INFO [user-center,,,] 2353 --- [main] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: 2d1b2d92-51db-46aa-8a11-788d89f09ed4
+
+2020-09-15 11:51:01.659  INFO [user-center,,,] 2353 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@136cad3e, org.springframework.security.web.context.SecurityContextPersistenceFilter@4028aab2, org.springframework.security.web.header.HeaderWriterFilter@391b03b, org.springframework.security.web.authentication.logout.LogoutFilter@116efe65, org.springframework.security.oauth2.provider.authentication.OAuth2AuthenticationProcessingFilter@4a65c40, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@5d782a4a, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@1aebe759, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@33197c2f, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@13e5b262, org.springframework.security.web.session.SessionManagementFilter@7c3ae369, org.springframework.security.web.access.ExceptionTranslationFilter@10df1f34, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@4df5f119]
+2020-09-15 11:51:01.736  INFO [user-center,,,] 2353 --- [main] io.lettuce.core.EpollProvider            : Starting without optional epoll library
+2020-09-15 11:51:01.737  INFO [user-center,,,] 2353 --- [main] io.lettuce.core.KqueueProvider           : Starting without optional kqueue library
+2020-09-15 11:51:06.955  INFO [user-center,,,] 2353 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2020-09-15 11:51:07.020  WARN [user-center,,,] 2353 --- [main] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2020-09-15 11:51:07.020  INFO [user-center,,,] 2353 --- [main] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-09-15 11:51:07.025  WARN [user-center,,,] 2353 --- [main] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2020-09-15 11:51:07.025  INFO [user-center,,,] 2353 --- [main] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-09-15 11:51:07.514  INFO [user-center,,,] 2353 --- [main] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService
+2020-09-15 11:51:08.213  INFO [user-center,,,] 2353 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2020-09-15 11:51:08.226  INFO [user-center,,,] 2353 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2020-09-15 11:51:08.259  INFO [user-center,,,] 2353 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2020-09-15 11:51:08.399  INFO [user-center,,,] 2353 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: handleUsingGET_1
+2020-09-15 11:51:08.400  INFO [user-center,,,] 2353 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: handleUsingGET_2
+2020-09-15 11:51:08.403  INFO [user-center,,,] 2353 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: handleUsingGET_3
+2020-09-15 11:51:08.406  INFO [user-center,,,] 2353 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: handleUsingDELETE_1
+2020-09-15 11:51:08.407  INFO [user-center,,,] 2353 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: handleUsingGET_4
+2020-09-15 11:51:08.408  INFO [user-center,,,] 2353 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: handleUsingGET_5
+2020-09-15 11:51:08.409  INFO [user-center,,,] 2353 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: handleUsingGET_6
+2020-09-15 11:51:08.410  INFO [user-center,,,] 2353 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: handleUsingGET_7
+2020-09-15 11:51:08.411  INFO [user-center,,,] 2353 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: handleUsingGET_8
+2020-09-15 11:51:08.416  INFO [user-center,,,] 2353 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: handleUsingDELETE_2
+2020-09-15 11:51:08.418  INFO [user-center,,,] 2353 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: handleUsingGET_9
+2020-09-15 11:51:08.419  INFO [user-center,,,] 2353 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: handleUsingGET_10
+2020-09-15 11:51:08.420  INFO [user-center,,,] 2353 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: handleUsingGET_11
+2020-09-15 11:51:08.421  INFO [user-center,,,] 2353 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: handleUsingGET_12
+2020-09-15 11:51:08.422  INFO [user-center,,,] 2353 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: handleUsingGET_13
+2020-09-15 11:51:08.423  INFO [user-center,,,] 2353 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: handleUsingGET_14
+2020-09-15 11:51:08.424  INFO [user-center,,,] 2353 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: handleUsingGET_15
+2020-09-15 11:51:08.426  INFO [user-center,,,] 2353 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: handleUsingGET_16
+2020-09-15 11:51:08.427  INFO [user-center,,,] 2353 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: handleUsingGET_17
+2020-09-15 11:51:08.428  INFO [user-center,,,] 2353 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: handleUsingPOST_1
+2020-09-15 11:51:08.428  INFO [user-center,,,] 2353 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: handleUsingGET_18
+2020-09-15 11:51:08.429  INFO [user-center,,,] 2353 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: handleUsingGET_19
+2020-09-15 11:51:08.430  INFO [user-center,,,] 2353 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: handleUsingGET_20
+2020-09-15 11:51:08.433  INFO [user-center,,,] 2353 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: handleUsingGET_21
+2020-09-15 11:51:08.436  INFO [user-center,,,] 2353 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: handleUsingGET_22
+2020-09-15 11:51:08.438  INFO [user-center,,,] 2353 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: handleUsingGET_23
+2020-09-15 11:51:08.439  INFO [user-center,,,] 2353 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: handleUsingPOST_2
+2020-09-15 11:51:08.439  INFO [user-center,,,] 2353 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: handleUsingGET_24
+2020-09-15 11:51:08.440  INFO [user-center,,,] 2353 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: handleUsingGET_25
+2020-09-15 11:51:08.441  INFO [user-center,,,] 2353 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: handleUsingPOST_3
+2020-09-15 11:51:08.442  INFO [user-center,,,] 2353 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: handleUsingGET_26
+2020-09-15 11:51:08.443  INFO [user-center,,,] 2353 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: handleUsingDELETE_3
+2020-09-15 11:51:08.447  INFO [user-center,,,] 2353 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: handleUsingGET_27
+2020-09-15 11:51:08.449  INFO [user-center,,,] 2353 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: handleUsingGET_28
+2020-09-15 11:51:08.476  INFO [user-center,,,] 2353 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: saveUsingPOST_1
+2020-09-15 11:51:08.481  INFO [user-center,,,] 2353 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: updateUsingPUT_1
+2020-09-15 11:51:09.152  INFO [user-center,,,] 2353 --- [main] s.a.ScheduledAnnotationBeanPostProcessor : No TaskScheduler/ScheduledExecutorService bean found for scheduled processing
+2020-09-15 11:51:09.168  INFO [user-center,,,] 2353 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-09-15 11:51:09.168  INFO [user-center,,,] 2353 --- [main] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-09-15 11:51:09.181  INFO [user-center,,,] 2353 --- [main] o.s.web.servlet.DispatcherServlet        : Completed initialization in 13 ms
+2020-09-15 11:51:09.182  INFO [user-center,,,] 2353 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 56704 (http) with context path ''
+2020-09-15 11:51:09.184  INFO [user-center,,,] 2353 --- [main] com.alibaba.nacos.client.naming          : [BEAT] adding beat: {"cluster":"DEFAULT","ip":"192.168.31.79","metadata":{"preserved.register.source":"SPRING_CLOUD"},"period":5000,"port":56704,"scheduled":false,"serviceName":"DEFAULT_GROUP@@user-center","stopped":false,"weight":1.0} to beat map.
+2020-09-15 11:51:09.239  INFO [user-center,,,] 2353 --- [main] com.alibaba.nacos.client.naming          : [REGISTER-SERVICE] public registering service DEFAULT_GROUP@@user-center with instance: {"clusterName":"DEFAULT","enabled":true,"ephemeral":true,"healthy":true,"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000,"ip":"192.168.31.79","ipDeleteTimeout":30000,"metadata":{"preserved.register.source":"SPRING_CLOUD"},"port":56704,"weight":1.0}
+2020-09-15 11:51:09.248  INFO [user-center,,,] 2353 --- [main] c.a.c.n.registry.NacosServiceRegistry    : nacos registry, DEFAULT_GROUP user-center 192.168.31.79:56704 register finished
+2020-09-15 11:51:09.252  INFO [user-center,,,] 2353 --- [main] com.cloud.user.UserCenterApplication     : Started UserCenterApplication in 23.874 seconds (JVM running for 34.36)
+2020-09-15 11:51:09.263  INFO [user-center,,,] 2353 --- [main] c.a.n.client.config.impl.ClientWorker    : [fixed-127.0.0.1_8848] [subscribe] user-center+DEFAULT_GROUP
+2020-09-15 11:51:09.263  INFO [user-center,,,] 2353 --- [main] c.a.nacos.client.config.impl.CacheData   : [fixed-127.0.0.1_8848] [add-listener] ok, tenant=, dataId=user-center, group=DEFAULT_GROUP, cnt=1
+2020-09-15 11:51:09.263  INFO [user-center,,,] 2353 --- [main] c.a.n.client.config.impl.ClientWorker    : [fixed-127.0.0.1_8848] [subscribe] user-center.yaml+DEFAULT_GROUP
+2020-09-15 11:51:09.263  INFO [user-center,,,] 2353 --- [main] c.a.nacos.client.config.impl.CacheData   : [fixed-127.0.0.1_8848] [add-listener] ok, tenant=, dataId=user-center.yaml, group=DEFAULT_GROUP, cnt=1
+2020-09-15 11:51:09.264  INFO [user-center,,,] 2353 --- [main] c.a.n.client.config.impl.ClientWorker    : [fixed-127.0.0.1_8848] [subscribe] user-center-dev.yaml+DEFAULT_GROUP
+2020-09-15 11:51:09.264  INFO [user-center,,,] 2353 --- [main] c.a.nacos.client.config.impl.CacheData   : [fixed-127.0.0.1_8848] [add-listener] ok, tenant=, dataId=user-center-dev.yaml, group=DEFAULT_GROUP, cnt=1
+2020-09-15 11:53:18.415  INFO [user-center,,,] 2353 --- [Thread-16] c.a.c.n.registry.NacosServiceRegistry    : De-registering from Nacos Server now...
+2020-09-15 11:53:18.415  INFO [user-center,,,] 2353 --- [Thread-16] com.alibaba.nacos.client.naming          : [BEAT] removing beat: DEFAULT_GROUP@@user-center:192.168.31.79:56704 from beat map.
+2020-09-15 11:53:18.415  INFO [user-center,,,] 2353 --- [Thread-16] com.alibaba.nacos.client.naming          : [DEREGISTER-SERVICE] public deregistering service DEFAULT_GROUP@@user-center with instance: {"clusterName":"DEFAULT","enabled":true,"ephemeral":true,"healthy":true,"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000,"instanceIdGenerator":"simple","ip":"192.168.31.79","ipDeleteTimeout":30000,"metadata":{},"port":56704,"weight":1.0}
+2020-09-15 11:53:18.420  INFO [user-center,,,] 2353 --- [Thread-16] c.a.c.n.registry.NacosServiceRegistry    : De-registration finished.
+2020-09-15 11:53:18.424  INFO [user-center,,,] 2353 --- [Thread-16] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'taskExecutor'
+2020-09-15 11:53:18.432  INFO [user-center,,,] 2353 --- [Thread-16] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed
+2020-09-15 11:53:19.352  WARN [user-center,,,] 2353 --- [AsyncReporter{org.springframework.cloud.sleuth.zipkin2.sender.RestTemplateSender@75805562}] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2020-09-15 11:53:19.352  INFO [user-center,,,] 2353 --- [AsyncReporter{org.springframework.cloud.sleuth.zipkin2.sender.RestTemplateSender@75805562}] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-09-15 11:53:19.352  INFO [user-center,,,] 2353 --- [AsyncReporter{org.springframework.cloud.sleuth.zipkin2.sender.RestTemplateSender@75805562}] c.netflix.config.DynamicPropertyFactory  : DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@6401645
+2020-09-15 11:53:19.364  WARN [user-center,,,] 2353 --- [AsyncReporter{org.springframework.cloud.sleuth.zipkin2.sender.RestTemplateSender@75805562}] s.c.a.AnnotationConfigApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'ribbonServerList' defined in com.alibaba.cloud.nacos.ribbon.NacosRibbonClientConfiguration: Unsatisfied dependency expressed through method 'ribbonServerList' parameter 1; nested exception is org.springframework.beans.factory.BeanCreationNotAllowedException: Error creating bean with name 'nacosProperties': Singleton bean creation not allowed while singletons of this factory are in destruction (Do not request a bean from a BeanFactory in a destroy method implementation!)

@@ -1,0 +1,27 @@
+server:
+  port: 0
+Spring:
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 127.0.0.1:8848
+#        namespace: 9257bc96-8af7-4737-9ce1-a63da2ba2af7
+#        cluster-name: GuangZhou
+      config:
+        server-addr: 127.0.0.1:8848
+        file-extension: yaml
+#    sentinel:
+#      transport:
+#        dashboard: 192.168.10.172:8858
+  application:
+    name: notification-center
+  profiles:
+    active: dev
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+  endpoint:
+    health:
+      show-details: always

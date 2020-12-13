@@ -1,0 +1,22 @@
+spring:
+  application:
+    name: manage-backend
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 172.31.100.81:8848
+      config:
+        server-addr: 172.31.100.81:8848
+        file-extension: yaml
+  profiles:
+    active: dev
+server:
+  port: 8010
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+  endpoint:
+    health:
+      show-details: always

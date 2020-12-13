@@ -1,0 +1,1 @@
+var domainName = "http://8.210.80.161:8010";
